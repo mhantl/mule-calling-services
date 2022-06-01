@@ -1,11 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-  <classpathentry kind="src" path="src/main/api" excluding="**/*.java"/>
-  <classpathentry kind="src" path="src/main/app" excluding="**/*.java"/>
-  <classpathentry kind="src" path="src/main/java"/>
-  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
-  <classpathentry kind="src" path="src/test/java" output="target/test-classes"/>
-  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
-  <classpathentry kind="output" path="target/classes"/>
-  <classpathentry kind="con" path="MULE_RUNTIME"/>
-  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/api"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/app"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="var" path="M2_REPO/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar" sourcepath="M2_REPO/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar" sourcepath="M2_REPO/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0-sources.jar">
+		<attributes>
+			<attribute name="org.mule.tooling.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar" sourcepath="M2_REPO/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2.jar" sourcepath="M2_REPO/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2-sources.jar">
+		<attributes>
+			<attribute name="org.mule.tooling.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/modules/mule-interceptor-module/3.8.1/mule-interceptor-module-3.8.1.jar" sourcepath="M2_REPO/com/mulesoft/modules/mule-interceptor-module/3.8.1/mule-interceptor-module-3.8.1-sources.jar">
+		<attributes>
+			<attribute name="org.mule.tooling.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/mule-munit-support/3.8.1/mule-munit-support-3.8.1.jar" sourcepath="M2_REPO/com/mulesoft/munit/mule-munit-support/3.8.1/mule-munit-support-3.8.1-sources.jar">
+		<attributes>
+			<attribute name="org.mule.tooling.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-assert/1.3.6/munit-assert-1.3.6.jar" sourcepath="M2_REPO/com/mulesoft/munit/munit-assert/1.3.6/munit-assert-1.3.6-sources.jar">
+		<attributes>
+			<attribute name="org.mule.tooling.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-common/1.3.6/munit-common-1.3.6.jar" sourcepath="M2_REPO/com/mulesoft/munit/munit-common/1.3.6/munit-common-1.3.6-sources.jar">
+		<attributes>
+			<attribute name="org.mule.tooling.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-mock/1.3.6/munit-mock-1.3.6.jar" sourcepath="M2_REPO/com/mulesoft/munit/munit-mock/1.3.6/munit-mock-1.3.6-sources.jar">
+		<attributes>
+			<attribute name="org.mule.tooling.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-runner/1.3.6/munit-runner-1.3.6.jar" sourcepath="M2_REPO/com/mulesoft/munit/munit-runner/1.3.6/munit-runner-1.3.6-sources.jar">
+		<attributes>
+			<attribute name="org.mule.tooling.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="MULE_RUNTIME"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>

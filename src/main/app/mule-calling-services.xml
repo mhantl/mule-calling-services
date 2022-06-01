@@ -7,9 +7,9 @@
 http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
-	<http:listener-config name="HTTP_Listener_Configuration" host="localhost" port="8082" doc:name="HTTP Listener Configuration"/>
-    <http:request-config name="HTTP_Request_Configuration-mc-xmlToJson2" host="localhost" port="8083" doc:name="HTTP Request Configuration"/>
-    <http:listener-config name="HTTP_Listener_Configuration1" host="localhost" port="8081" doc:name="HTTP Listener Configuration"/>
+	<http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="8082" doc:name="HTTP Listener Configuration"/>
+    <http:request-config name="HTTP_Request_Configuration-mc-xmlToJson2" host="0.0.0.0" port="8084" doc:name="HTTP Request Configuration"/>
+    <http:listener-config name="HTTP_Listener_Configuration1" host="0.0.0.0" port="8083" doc:name="HTTP Listener Configuration"/>
 	<flow name="mc-xmlToJson2Flow">
 		<http:listener config-ref="HTTP_Listener_Configuration" path="/mc-xmlToJson2" allowedMethods="POST" doc:name="HTTP"/>
 		<logger message="LOG-1 - mc-xmlToJson2 #[payload]" level="INFO" doc:name="Logger"/>

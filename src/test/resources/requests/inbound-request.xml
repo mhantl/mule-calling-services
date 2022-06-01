@@ -1,0 +1,8 @@
+<request>
+    <header>
+        <Content-Type>application/json</Content-Type>
+        <name>userMMMM</name>
+        <password>123-456-789-0</password>
+    </header>
+    <customerId>1111222333444</customerId>
+</request>

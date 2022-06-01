@@ -1,0 +1,10 @@
+{
+"request": {
+"header": {
+"Content-Type": "application/json",
+"name": "userMMMM",
+"password": "123-456-789-0"
+},
+"customerId": "1111222333444"
+}
+}
